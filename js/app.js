@@ -34,6 +34,7 @@ if (randomFour == 1) {
 javob1.onclick = function () {
   if (javob1.textContent == natija) {
     javob1.classList.add("!bg-green-400");
+    location.reload();
   } else {
     javob1.classList.add("!bg-red-400");
   }
@@ -41,6 +42,7 @@ javob1.onclick = function () {
 javob2.onclick = function () {
   if (javob2.textContent == natija) {
     javob2.classList.add("!bg-green-400");
+    location.reload();
   } else {
     javob2.classList.add("!bg-red-400");
   }
@@ -48,6 +50,7 @@ javob2.onclick = function () {
 javob3.onclick = function () {
   if (javob3.textContent == natija) {
     javob3.classList.add("!bg-green-400");
+    location.reload();
   } else {
     javob3.classList.add("!bg-red-400");
   }
@@ -55,6 +58,7 @@ javob3.onclick = function () {
 javob4.onclick = function () {
   if (javob4.textContent == natija) {
     javob4.classList.add("!bg-green-400");
+    location.reload();
   } else {
     javob4.classList.add("!bg-red-400");
   }
